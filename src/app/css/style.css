@@ -48,7 +48,13 @@ a.log-bar:hover,a.log-bar:focus{
     font-family: 'Didact Gothic';
     font-weight: 400;
 }
+.nav-menu{
+    background: transparent;
+    border-radius: 0;
+    border: 0;
+    margin-top: 10px;
 
+}
 .content h1 {
     font-weight: 400;
     text-transform: uppercase;
@@ -1448,7 +1454,9 @@ div textarea {
         padding: 4px 7px;
         font-size: 12.5px;
     }
-    
+    .nav-menu {
+        margin-top: 30px;
+    }
     a.simpleCart_empty {
         font-size: 12px;
     }

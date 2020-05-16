@@ -9,10 +9,11 @@ import { FooterComponent } from './footer/footer.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { RepresentativeProductsComponent } from './representative-products/representative-products.component';
 import { NewProductsComponent } from './new-products/new-products.component';
+import { MenuBarComponent } from './header/menu-bar/menu-bar.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HeaderComponent, HeaderEndComponent, FooterComponent, NewsletterComponent, RepresentativeProductsComponent, NewProductsComponent ],
+  declarations: [ AppComponent, HeaderComponent, HeaderEndComponent, FooterComponent, NewsletterComponent, RepresentativeProductsComponent, NewProductsComponent, MenuBarComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
