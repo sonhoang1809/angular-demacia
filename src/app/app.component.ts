@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css', './css/bootstrap.min.css','./css/style.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
 }
