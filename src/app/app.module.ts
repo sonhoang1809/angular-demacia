@@ -12,7 +12,7 @@ import { NewProductsComponent } from './new-products/new-products.component';
 import { MenuBarComponent } from './header/menu-bar/menu-bar.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, HttpClientModule ],
   declarations: [ AppComponent, HeaderComponent, HeaderEndComponent, FooterComponent, NewsletterComponent, RepresentativeProductsComponent, NewProductsComponent, MenuBarComponent ],
   bootstrap:    [ AppComponent ]
 })
