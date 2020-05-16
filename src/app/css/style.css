@@ -13,16 +13,8 @@ body{
 	padding:0;
 }
 
-.header-top{
-    position: relative;
-    padding: 0;
-    text-align: center;
-}
-.login-bars{
-    position: absolute;
-    top: 5%;
-    right: 0%;
-}
+
+
 .logo a,.logo a:hover {
     font-family: 'Pathway Gothic One';
     background-color: #A5E126;
@@ -442,15 +434,7 @@ li.ad-2-crt a:nth-child(2) {
     vertical-align: text-top;
     color: #aaa;
 }
-.box_1 {
-    margin-top: 15px;
-}
-.box_1 h3 {
-    color: #100b0b;
-    font-size: 1.2em;
-    font-weight: 700;
-    margin: 0;
-}
+
 .hed-cart {
     font-size: 20px;
 }
@@ -1329,9 +1313,7 @@ div textarea {
 
 @media screen and (max-width: 480px){
     
-    .box_1 {
-        margin-top: 5px;
-    }
+    
     a.log-bar {
         padding: 3px 10px;
         font-weight: 100;

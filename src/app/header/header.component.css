@@ -1,0 +1,28 @@
+.header{
+  margin-top: 20px;
+}
+.header-top{
+    position: relative;
+    padding: 0;
+    text-align: center;
+}
+.login-bars{
+    position: absolute;
+    top: 5%;
+    right: 0%;
+}
+.box_1 {
+    margin-top: 15px;
+}
+.box_1 h3 {
+    color: #100b0b;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0;
+}
+
+@media screen and (max-width: 480px){
+  .box_1 {
+        margin-top: 5px;
+    }
+}
