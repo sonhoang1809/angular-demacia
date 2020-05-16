@@ -19,7 +19,62 @@ input.sub-email {
     outline: none;
     font-size: 18px;
 }
+a.subs-btn {
+    font-family: 'Pathway Gothic One';
+    border: none;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    background-color: #FFF;
+    border-radius: 0;
+    padding: 7px;
+    font-size: 18px;
+    width: 9%;
+    margin: -6px 0px 1px 0px;
+    color: #000;
+    outline: none;
+}
+a.subs-btn:hover{
+    background: #A5E126;
+    transition: 0.5s all;
+    border: none;
+    border-right: 2px solid #A5E126;
+    border-bottom: 2px solid #A5E126;
+    border-top: 2px solid #A5E126;
+    color: #fff;
+}
 
+@media screen and (max-width: 768px){
+  a.subs-btn {
+        width: 11%;
+    }
+}
+@media screen and (max-width:640px){
+  a.subs-btn {
+        width: 13%;
+    }
+}
+@media screen and (max-width: 568px){
+    a.subs-btn {
+        width: 17%;
+    }
+}
+@media screen and (max-width: 480px){
+  a.subs-btn {
+        width: 17%;
+    }
+}
+@media screen and (max-width: 414px){
+  a.subs-btn {
+        width: 21%;
+    }
+    
+}
+@media screen and (max-width: 360px){
+   a.subs-btn {
+        width: 24%;
+    }
+}
 @media screen and (max-width:320px){
   .sub-news {
         padding: 0em 0;
@@ -28,5 +83,11 @@ input.sub-email {
     input.sub-email {
         padding: 3px;
         font-size: 14px;
+    }
+    a.subs-btn {
+        padding: 3px;
+        font-size: 14px;
+        width: 20%;
+        margin: -3px -3px 0px;
     }
 }

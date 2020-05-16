@@ -436,30 +436,6 @@ li.ad-2-crt a:nth-child(2) {
     margin-top: 20px;
 }
 
-a.subs-btn {
-    font-family: 'Pathway Gothic One';
-    border: none;
-    border-right: 2px solid #000;
-    border-bottom: 2px solid #000;
-    border-top: 2px solid #000;
-    background-color: #FFF;
-    border-radius: 0;
-    padding: 7px;
-    font-size: 18px;
-    width: 9%;
-    margin: -6px 0px 1px 0px;
-    color: #000;
-    outline: none;
-}
-a.subs-btn:hover{
-    background: #A5E126;
-    transition: 0.5s all;
-    border: none;
-    border-right: 2px solid #A5E126;
-    border-bottom: 2px solid #A5E126;
-    border-top: 2px solid #A5E126;
-    color: #fff;
-}
 
 .total {
     display: inline-block;
@@ -1129,9 +1105,7 @@ div textarea {
         left: 55%;
         right: 0%;
     }
-    a.subs-btn {
-        width: 11%;
-    }
+    
     ul.dropdown-menu.multi-column.columns-3 {
         left:-160%;
     }
@@ -1296,9 +1270,7 @@ div textarea {
         margin: 0 !important;
     }
     
-    a.subs-btn {
-        width: 13%;
-    }
+    
     .grid-gallery h3 {
         font-size: 13px;
     }
@@ -1354,11 +1326,7 @@ div textarea {
         margin-left: 54px; 
     }
 }
-@media screen and (max-width: 568px){
-    a.subs-btn {
-        width: 17%;
-    }
-}
+
 @media screen and (max-width: 480px){
     
     .box_1 {
@@ -1402,9 +1370,7 @@ div textarea {
         width: 50%;
         float: left;
     }
-    a.subs-btn {
-        width: 17%;
-    }
+    
     
     .grid-gallery {
         width: 100%;
@@ -1458,9 +1424,6 @@ div textarea {
     .car-re-posn h4 {
         margin: 5px 0px;
     }
-    a.subs-btn {
-        width: 21%;
-    }
     
     .logo a, .logo a:hover {
 		padding: 10px 34px;
@@ -1487,9 +1450,7 @@ div textarea {
         padding: 5px 18px;
         font-size: 40px;
     }
-    a.subs-btn {
-        width: 24%;
-    }
+   
     a.log-bar:first-child {
         display: none;
     }
@@ -1563,12 +1524,7 @@ div textarea {
         padding: 0 !important;
     }
     
-    a.subs-btn {
-        padding: 3px;
-        font-size: 14px;
-        width: 20%;
-        margin: -3px -3px 0px;
-    }
+    
     .quick-view {
         position: absolute;
         top: 34%;
