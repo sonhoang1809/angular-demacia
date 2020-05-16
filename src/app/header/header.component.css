@@ -6,6 +6,13 @@
     padding: 0;
     text-align: center;
 }
+.nav-menu{
+    background: transparent;
+    border-radius: 0;
+    border: 0;
+    margin-top: 10px;
+
+}
 .login-bars{
     position: absolute;
     top: 5%;
@@ -24,5 +31,16 @@
 @media screen and (max-width: 480px){
   .box_1 {
         margin-top: 5px;
+    }
+    span.simpleCart_total {
+        font-size: 14px;
+    }
+    span#simpleCart_quantity {
+        font-size: 15.5px;
+    }
+}
+@media screen and (max-width:320px){
+  .nav-menu {
+        margin-top: 30px;
     }
 }
