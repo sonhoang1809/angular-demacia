@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from "@angular/common/http";
+import { Image } from '../image';
 
 @Component({
   selector: 'app-header-end',
@@ -7,9 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderEndComponent implements OnInit {
 
-  constructor() { }
-
+  ListNike: Image[];
+  constructor(private http: HttpClient) {
+    
+  }
+  private settingImg(){
+    var prod;
+    for(prod of this.ListNike){
+      prod.imageData = 'data:image/jpg;base64,'+ prod.imageData;
+    }
+  }
   ngOnInit() {
+    this.http.get<Image[]>('https://demacia-shop.azurewebsites.net/api/Images/ImgsProduct/64').subscribe(result =>{
+      this.ListNike = result;
+      this.settingImg();
+    })
   }
 
 }

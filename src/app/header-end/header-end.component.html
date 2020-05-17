@@ -9,9 +9,9 @@
 			</ol>
 
 			<!-- Wrapper for slides -->
-			<div class="carousel-inner" role="listbox">
+			<div class="carousel-inner" role="listbox" *ngIf="ListNike">
 				<div class="item active">
-					<img src="./images/shoe3.jpg" alt="...">
+					<img src="{{ListNike[0].imageData}}" alt="...">
 					<div class="carousel-caption car-re-posn">
 						<h3>AirMax</h3>
 						<h4>You feel to fall</h4>
@@ -19,7 +19,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="./images/shoe1.jpg" alt="...">
+					<img src="{{ListNike[1].imageData}}" alt="...">
 					<div class="carousel-caption car-re-posn">
 						<h3>AirMax</h3>
 						<h4>You feel to fall</h4>
@@ -27,7 +27,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="./images/shoe2.jpg" alt="...">
+					<img src="{{ListNike[2].imageData}}" alt="...">
 					<div class="carousel-caption car-re-posn">
 						<h3>AirMax</h3>
 						<h4>You feel to fall</h4>
