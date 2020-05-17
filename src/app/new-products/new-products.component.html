@@ -7,37 +7,53 @@
 		</div>
 		<div class="col-md-4 grid-stn simpleCart_shelfItem">
 			<!-- normal -->
-			<div class="ih-item square effect3 bottom_to_top">
-				<div class="bottom-2-top">
-					<div class="img"><img src="images/grid4.jpg" alt="/" class="img-responsive gri-wid">
+			<div *ngFor="let data of topImg">
+				<div class="ih-item square effect3 bottom_to_top">
+					<div class="bottom-2-top">
+						<div class="img"><img src="{{data.imageData}}" alt="/" class="img-responsive gri-wid">
           </div>
-						<div class="info">
-							<div class="pull-left styl-hdn">
-								<h3>style 01</h3>
-							</div>
-							<div class="pull-right styl-price">
-								<p>
-									<a href="#" class="item_add">
-										<span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span>
-										<span class=" item_price">$190</span>
-									</a>
-								</p>
-							</div>
-							<div class="clearfix">
+							<div class="info">
+								<div class="pull-left styl-hdn">
+									<h3>Style 1</h3>
+								</div>
+								<div class="pull-right styl-price">
+									<p>
+										<a href="#" class="item_add">
+											<span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span>
+											<span class=" item_price">$190</span>
+										</a>
+									</p>
+								</div>
+								<div class="clearfix">
+								</div>
 							</div>
 						</div>
 					</div>
+					<!-- end normal -->
+					<div class="quick-view">
+						<a href="single.html">Quick view</a>
+					</div>
 				</div>
-				<!-- end normal -->
-				<div class="quick-view">
-					<a href="single.html">Quick view</a>
+			</div>
+
+			<br><br>
+			<div class="text-center">
+				<div class="container">
+					<a class="btn btn-default">View more</a>
+				</div>
+			</div>
+
+			<div class="text-center">
+				<div class="container">
+					<h3>Nike News</h3>
 				</div>
 			</div>
 			<div class="col-md-4 grid-stn simpleCart_shelfItem">
 				<!-- normal -->
 				<div class="ih-item square effect3 bottom_to_top">
 					<div class="bottom-2-top">
-						<div class="img"><img src="images/grid6.jpg" alt="/" class="img-responsive gri-wid"></div>
+						<div class="img">
+							<img src="images/grid5.jpg" alt="/" class="img-responsive gri-wid"></div>
 							<div class="info">
 								<div class="pull-left styl-hdn">
 									<h3>style 01</h3>
@@ -60,7 +76,8 @@
 					<!-- normal -->
 					<div class="ih-item square effect3 bottom_to_top">
 						<div class="bottom-2-top">
-							<div class="img"><img src="images/grid3.jpg" alt="/" class="img-responsive gri-wid"></div>
+							<div class="img">
+								<img src="images/grid7.jpg" alt="/" class="img-responsive gri-wid"></div>
 								<div class="info">
 									<div class="pull-left styl-hdn">
 										<h3>style 01</h3>
@@ -79,24 +96,12 @@
 							<a href="single.html">Quick view</a>
 						</div>
 					</div>
-					<br><br>
-					<div class="text-center">
-						<div class="container">
-							<a class="btn btn-default">View more</a>
-						</div>
-					</div>
-
-					<div class="text-center">
-						<div class="container">
-							<h3>Nike News</h3>
-						</div>
-					</div>
 					<div class="col-md-4 grid-stn simpleCart_shelfItem">
 						<!-- normal -->
 						<div class="ih-item square effect3 bottom_to_top">
 							<div class="bottom-2-top">
 								<div class="img">
-									<img src="images/grid5.jpg" alt="/" class="img-responsive gri-wid"></div>
+									<img src="images/grid8.jpg" alt="/" class="img-responsive gri-wid"></div>
 									<div class="info">
 										<div class="pull-left styl-hdn">
 											<h3>style 01</h3>
@@ -115,59 +120,11 @@
 								<a href="single.html">Quick view</a>
 							</div>
 						</div>
-						<div class="col-md-4 grid-stn simpleCart_shelfItem">
-							<!-- normal -->
-							<div class="ih-item square effect3 bottom_to_top">
-								<div class="bottom-2-top">
-									<div class="img">
-										<img src="images/grid7.jpg" alt="/" class="img-responsive gri-wid"></div>
-										<div class="info">
-											<div class="pull-left styl-hdn">
-												<h3>style 01</h3>
-											</div>
-											<div class="pull-right styl-price">
-												<p><a href="#" class="item_add"><span
-                                            class="glyphicon glyphicon-shopping-cart grid-cart"
-                                            aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-									</div>
-								</div>
-								<!-- end normal -->
-								<div class="quick-view">
-									<a href="single.html">Quick view</a>
-								</div>
-							</div>
-							<div class="col-md-4 grid-stn simpleCart_shelfItem">
-								<!-- normal -->
-								<div class="ih-item square effect3 bottom_to_top">
-									<div class="bottom-2-top">
-										<div class="img">
-											<img src="images/grid8.jpg" alt="/" class="img-responsive gri-wid"></div>
-											<div class="info">
-												<div class="pull-left styl-hdn">
-													<h3>style 01</h3>
-												</div>
-												<div class="pull-right styl-price">
-													<p><a href="#" class="item_add"><span
-                                            class="glyphicon glyphicon-shopping-cart grid-cart"
-                                            aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
-												</div>
-												<div class="clearfix"></div>
-											</div>
-										</div>
-									</div>
-									<!-- end normal -->
-									<div class="quick-view">
-										<a href="single.html">Quick view</a>
-									</div>
-								</div>
-								<div class="text-center">
-									<div class="container">
-										<a class="btn btn-default">View more</a>
-									</div>
-								</div>
-								<div class="clearfix"></div>
+						<div class="text-center">
+							<div class="container">
+								<a class="btn btn-default">View more</a>
 							</div>
 						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
