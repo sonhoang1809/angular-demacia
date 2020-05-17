@@ -2,17 +2,17 @@
 <div class="feel-fall">
 	<div class="container">
 		<div class="pull-left fal-box">
-			<div class=" fall-left">
+			<div class=" fall-left" *ngIf="imgAdidas">
 				<h3>Adidas</h3>
-				<img src="{{imgAdidas.imageData}}" alt="/" class="img-responsive fl-img-wid">
+				<img src="{{imgAdidas.imageData}}" alt="/" class="img-responsive fl-img-wid" style="width: 40%;">
 				<p>Inspiration and innovation<br> for every athlete in the world</p>
 					<span class="fel-fal-bar"></span>
 			</div>
 		</div>
 		<div class="pull-right fel-box">
-			<div class="feel-right">
+			<div class="feel-right" *ngIf="imgNike">
 				<h3>Nike</h3>
-				<img src="{{imgNike.imageData}}" alt="/" class="img-responsive fl-img-wid">
+				<img src="{{imgNike.imageData}}" alt="/" class="img-responsive fl-img-wid" style="width: 33%;">
 				<p>Inspiration and innovation<br> for every athlete in the world</p>
 					<span class="fel-fal-bar2"></span>
 			</div>
