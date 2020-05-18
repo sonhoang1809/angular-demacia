@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { Image } from "../image";
 import { HttpClient } from "@angular/common/http";
+import { Product } from "../product";
 //import 'rxjs/add/operator/map'
 //import { Http , Response} from "@angular/http";
 
@@ -10,15 +11,17 @@ import { HttpClient } from "@angular/common/http";
   styleUrls: ["./new-products.component.css"]
 })
 export class NewProductsComponent implements OnInit {
-  topImg: Image[];
-  img: any = {};
-  apiLink: "https://demacia-shop.azurewebsites.net/api/news";
+
+  adidasNews: Product[];
+  nikeNews: Product[];
+  //apiLink: "https://localhost:44326/api/products/Get3NewAdidas";
   constructor(private http: HttpClient) {
-    this.http.get<Image[]>(this.apiLink).subscribe(result => {
-      this.topImg = result;
+    this.http.get<Product[]>('https://localhost:44326/api/products/Get3NewAdidas').subscribe(result => {
+      this.adidasNews = result;
     });
-    //console.log(this.topImg);
-    //this.getImages();
+    this.http.get<Product[]>('https://localhost:44326/api/products/Get3NewNike').subscribe(result => {
+      this.nikeNews = result;
+    });
   }
 
   // getData() {
@@ -33,5 +36,7 @@ export class NewProductsComponent implements OnInit {
   //   });
   // }
 
-  ngOnInit() {}
+  ngOnInit() {
+    
+  }
 }

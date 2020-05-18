@@ -403,9 +403,10 @@ span.fel-fal-bar2{
 .grid-stn {
     position: relative;
 }
-.grid-stn:nth-child(4),.grid-stn:nth-child(5),.grid-stn:nth-child(6),.grid-stn:nth-child(7),.grid-stn:nth-child(8),.grid-stn:nth-child(9),.grid-stn:nth-child(10),.grid-stn:nth-child(11),.grid-stn:nth-child(12){
+/*.grid-stn:nth-child(4),
+.grid-stn:nth-child(5),.grid-stn:nth-child(6),.grid-stn:nth-child(7),.grid-stn:nth-child(8),.grid-stn:nth-child(9),.grid-stn:nth-child(10),.grid-stn:nth-child(11),.grid-stn:nth-child(12),.grid-stn:nth-child(13){
     margin-top: 40px;
-}
+}*/
 .grid-stn:hover .quick-view a{
     display: block;
 }
