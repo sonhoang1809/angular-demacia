@@ -5,12 +5,12 @@
 				<h3>Adidas News</h3>
 			</div>
 		</div>
-		<div class="col-md-4 grid-stn simpleCart_shelfItem" *ngFor="let adidasNew of adidasNews">
+		<div class="col-md-4 grid-stn simpleCart_shelfItem" *ngFor="let adidasImageNew of adidasImageNews">
 			<!-- normal -->
 			<div class="ih-item square effect3 bottom_to_top">
 				<div class="bottom-2-top">
 					<div class="img">
-						<img src="data:image/jpg;base64,{{adidasNew.images[0].imageData}}" alt="/" class="img-responsive gri-wid">
+						<img src="data:image/jpg;base64,{{adidasImageNew.imageData}}" alt="/" class="img-responsive gri-wid">
             </div>
 						<div class="info">
 							<div class="pull-left styl-hdn">
@@ -40,12 +40,12 @@
 				</div>
 			</div>
 
-			<div class="col-md-4 grid-stn simpleCart_shelfItem" *ngFor="let nikeNew of nikeNews" >
+			<div class="col-md-4 grid-stn simpleCart_shelfItem" *ngFor="let nikeImageNew of nikeImageNews" >
 				<!-- normal -->
 				<div class="ih-item square effect3 bottom_to_top">
 					<div class="bottom-2-top">
 						<div class="img">
-							<img src="data:image/jpg;base64,{{nikeNew.images[2].imageData}}" alt="/" class="img-responsive gri-wid" style="height: 437.5px;">
+							<img src="data:image/jpg;base64,{{nikeImageNew.imageData}}" alt="/" class="img-responsive gri-wid" >
             </div>
 							<div class="info">
 								<div class="pull-left styl-hdn">

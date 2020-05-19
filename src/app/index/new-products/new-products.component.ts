@@ -12,15 +12,15 @@ import { Product } from "../product";
 })
 export class NewProductsComponent implements OnInit {
 
-  adidasNews: Product[];
-  nikeNews: Product[];
+  adidasImageNews: Image[];
+  nikeImageNews: Image[];
   //apiLink: "https://localhost:44326/api/products/Get3NewAdidas";
   constructor(private http: HttpClient) {
-    this.http.get<Product[]>('https://localhost:44326/api/products/Get3NewAdidas').subscribe(result => {
-      this.adidasNews = result;
+    this.http.get<Image[]>('https://localhost:44326/api/images/ImgsNewProduct/1').subscribe(result => {
+      this.adidasImageNews = result;
     });
-    this.http.get<Product[]>('https://localhost:44326/api/products/Get3NewNike').subscribe(result => {
-      this.nikeNews = result;
+    this.http.get<Image[]>('https://localhost:44326/api/images/ImgsNewProduct/2').subscribe(result => {
+      this.nikeImageNews = result;
     });
   }
 
