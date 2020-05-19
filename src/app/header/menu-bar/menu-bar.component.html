@@ -2,7 +2,7 @@
 	<div class="content white">
 		<nav class="navbar navbar-default nav-menu" role="navigation">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-1">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -15,14 +15,13 @@
 			<div class="collapse navbar-collapse collapse-pdng" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav nav-font" style="text-align: center;">
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop<b
-                                            class="caret"></b></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="products.html">Adidas</a></li>
+							<li><a href="products.html">Shoes</a></li>
 							<li class="divider"></li>
-							<li><a href="products.html">Nike</a></li>
+							<li><a href="products.html">Shirt</a></li>
 							<li class="divider"></li>
-							<li><a href="products.html">Puma</a></li>
+							<li><a href="products.html">Joggers</a></li>
 
 						</ul>
 					</li>
@@ -43,7 +42,7 @@
 								</div>
 								<div *ngIf="adidasMenuImg">
 									<div class="col-sm-6">
-										<a href="#"><img src="{{adidasMenuImg.imageData}}" alt="/" class="img-rsponsive men-img-wid" />
+										<a href="#"><img src="data:image/jpg;base64,{{adidasMenuImg.imageData}}" alt="/" class="img-rsponsive men-img-wid" />
                     </a>
 									</div>
 								</div>
@@ -67,7 +66,7 @@
 								</div>
 								<div *ngIf="nikeMenuImg">
 									<div class="col-sm-6">
-										<a href="#"><img src="{{nikeMenuImg.imageData}}" alt="/" class="img-rsponsive men-img-wid" /></a>
+										<a href="#"><img src="data:image/jpg;base64,{{nikeMenuImg.imageData}}" alt="/" class="img-rsponsive men-img-wid" /></a>
 									</div>
 								</div>
 							</div>

@@ -13,13 +13,15 @@ import { RouterModule } from '@angular/router';
 import { IndexComponent } from './index/index.component';
 import { HeaderEndComponent } from './index/header-end/header-end.component';
 import { CartComponent } from './header/cart/cart.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule,
   RouterModule.forRoot([
     {path: '', component: IndexComponent}
   ]) ],
-  declarations: [ AppComponent, HeaderComponent, HeaderEndComponent, FooterComponent, NewsletterComponent, RepresentativeProductsComponent, NewProductsComponent, MenuBarComponent, IndexComponent, CartComponent ],
+  declarations: [ AppComponent, HeaderComponent, HeaderEndComponent, FooterComponent, NewsletterComponent, RepresentativeProductsComponent, NewProductsComponent, MenuBarComponent, IndexComponent, CartComponent, ProductListComponent, ProductDetailsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
